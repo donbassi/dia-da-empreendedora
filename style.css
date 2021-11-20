@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Montagu+Slab:wght@400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montagu Slab', serif;
+    font-weight: bold;
+}
+
+header {
+    background: none;
+    position: absolute;
+    top: 1em;
+    width: 50vw;
+    color: #E86210;
+}
+
+
+body {
+    background: linear-gradient(-45deg, #ECBFA8, #F1F1F1, #F1F1F1, #ECBFA8);
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h2, h3 {
+    display: inline;
+    font-size: 2.5rem;
+}
+
+h3 {
+    position: absolute;
+    right: 0;
+}
+
+.container {
+    padding: 2rem 2rem;
+    text-align: center;
+    font-size: 3rem;
+    color: #E86210;
+}
+
+strong:first-child {
+    background: #E12792;
+    color: #fafafa;
+    padding: 0 0.5rem;
+}
+
+strong {
+    color: #E12792;
+}
+
+.botao {
+    margin: 1rem 0 0 0;
+    text-align: center;
+}
+
+.link {
+    display: inline;
+    padding: 0.5rem 0.8rem;
+    border: 2px solid #e1279385;
+    border-radius: 8px;
+    box-shadow: 5px 5px 15px #e1279385;
+    font-size: 2rem;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.link:hover {
+    background: #e1279334;
+}
+
+.botao a {
+    text-decoration: none;
+    color: #E12792;
+}
+
+footer {
+    position: absolute;
+    bottom: 1rem;
+    text-align: center;
+    color: #E86210;
+}
+
+footer a {
+    color: #E86210;
+}
